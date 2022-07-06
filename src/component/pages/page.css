@@ -1,0 +1,49 @@
+/*home*/
+.home {
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 500px;
+    padding-bottom: 500px;
+}
+.title{
+    font-size: 100px;
+}
+
+.sabtitle{
+    font-size: 70px;
+}
+
+/* about */
+.about {
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/* aboutme */
+.aboutme{
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+/* works */
+.works{
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* その他 */
+.classes.title{
+    
+}

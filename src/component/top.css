@@ -1,0 +1,50 @@
+/* scrollify.jsに関係する記述はここかから */
+.scrollify{
+    width: 100%;
+    height: 150%;
+  }
+
+  .section01{
+    background-color: skyblue;
+  }
+   
+  .section02{
+    background-color: aqua;
+  }
+   
+  .section03{
+    background-color: #75a1ff;
+  }
+   
+  .section04{
+    background-color: #094ee2;
+  }
+  /* scrollify.jsに関係する記述はここまで */
+   
+   
+  /* セクションごとのタイトルはここから */
+  .title{
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+  }
+   
+  .content{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+    text-align: justify;
+    width: fit-content;
+  }
+  /* セクションごとのタイトルはここまで */
+  
