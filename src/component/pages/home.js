@@ -11,6 +11,7 @@ const Home = () => {
                 ShigemotoLab
                 </div>
             </div>
+
     )
 }
 export default Home;
