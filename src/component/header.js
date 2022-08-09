@@ -4,8 +4,9 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+// import IconButton from '@material-ui/core/IconButton';
+// import MenuIcon from '@material-ui/icons/Menu';
+import { HashLink } from 'react-router-hashlink';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,10 +30,10 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton> */}
           <Typography variant="h4" className={classes.title}>
-            portfolio
+          portfolio
           </Typography>
 
-          <Button color="inherit">Works</Button>
+          <Button color="inherit"><HashLink to="/works" behavior="smooth">Works</HashLink></Button>
           <Button color="inherit">Aboutme</Button>
           <Button color="inherit">About</Button>
           <Button color="inherit">Home</Button>
