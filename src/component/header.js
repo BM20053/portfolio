@@ -37,7 +37,7 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton> */}
           <Typography variant="h4" className={classes.title}>
-          portfolio
+            portfolio
           </Typography>
 
           {/* <HashLink to="/works" behavior="smooth">
