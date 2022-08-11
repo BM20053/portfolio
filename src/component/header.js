@@ -6,8 +6,13 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
-import { HashLink } from 'react-router-hashlink';
+// import { HashLink } from 'react-router-hash-link';
+import { useNavigate, Link } from 'react-router-dom';
 
+// const handleClick1 = () => {
+//   // 同一タブ内で遷移
+//   window.location.href = './works';
+// };
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -23,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar() {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
+    <div className={classes.root} class='header'>
       <AppBar position="static">
         <Toolbar>
           {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"> //3本線のメニューバー
@@ -33,10 +38,22 @@ export default function ButtonAppBar() {
           portfolio
           </Typography>
 
-          <Button color="inherit"><HashLink to="/works" behavior="smooth">Works</HashLink></Button>
-          <Button color="inherit">Aboutme</Button>
+          {/* <HashLink to="/works" behavior="smooth">
+            <MenuItem >
+              Works
+            </MenuItem>
+          </HashLink> */}
+
+          <Button color="inherit">
+            {/* <HashLink to="/works" behavior="smooth"> */}
+              <a href='#works'>
+              Works
+              </a>
+              {/* </HashLink> */}
+          </Button>
+          {/* <Button color="inherit">Aboutme</Button>
           <Button color="inherit">About</Button>
-          <Button color="inherit">Home</Button>
+          <Button color="inherit">Home</Button> */}
         </Toolbar>
       </AppBar>
     </div>
