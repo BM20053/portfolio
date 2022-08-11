@@ -3,7 +3,7 @@ import './page.css';
 
 const Works = () => {
     return(
-        <div className="works">
+        <div className="works" id='works'>
             <h1>Works</h1>
             <h2>大学４年間でやったこと</h2>
             </div>
