@@ -16,6 +16,7 @@
     font-size: 70px;
 }
 
+
 /* about */
 .about {
     background-color: #c6ffe2;
@@ -25,9 +26,9 @@
     padding-top: 1px;
     font-size: 30px;
     text-align: center;
-
-
 }
+
+
 
 /* aboutme */
 .aboutme{
@@ -43,6 +44,12 @@
     text-align: left;
     font-size: 30px;
     margin-left: 80px;
+}
+
+.sampleimg3{
+    float: right;
+    margin-right: 150px;
+    margin-top: -200px;
 }
 
 .hobby{
@@ -62,6 +69,18 @@
     padding-top: 1px;
     text-decoration: none;
 
+}
+
+.achievement{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.message{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
 }
 
 /* その他 */
