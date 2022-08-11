@@ -3,7 +3,7 @@ import './page.css';
 
 const About = () => {
     return(
-        <div className="about">
+        <div className="about" id='about'>
             <div className='title'>About this site</div>
             <p>ここは重本悠貴のポートフォリオです。</p>
             <p>私のこと、大学での経験などをまとめています。</p>
