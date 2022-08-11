@@ -7,7 +7,9 @@ import Button from '@material-ui/core/Button';
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
 // import { HashLink } from 'react-router-hash-link';
-import { useNavigate, Link } from 'react-router-dom';
+// import { useNavigate, Link } from 'react-router-dom';
+import './header.css'
+
 
 // const handleClick1 = () => {
 //   // 同一タブ内で遷移
@@ -45,11 +47,24 @@ export default function ButtonAppBar() {
           </HashLink> */}
 
           <Button color="inherit">
-            {/* <HashLink to="/works" behavior="smooth"> */}
+              <a href='#home'>
+              Home
+              </a>
+          </Button>
+          <Button color="inherit">
+              <a href='#about'>
+              About
+              </a>
+          </Button>
+          <Button color="inherit">
+              <a href='#aboutme'>
+              Aboutme
+              </a>
+          </Button>
+          <Button color="inherit">
               <a href='#works'>
               Works
               </a>
-              {/* </HashLink> */}
           </Button>
           {/* <Button color="inherit">Aboutme</Button>
           <Button color="inherit">About</Button>
