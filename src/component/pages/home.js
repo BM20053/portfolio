@@ -12,7 +12,8 @@ export default class Home extends React.Component {
                 <div className='sabtitle'>
                     ShigemotoLab
                 </div>
-                <input type="image" img src={Image} alt="Image" />
+                    <input type="image" img src={Image} alt="Image" width="450" height="600"/>
+               
             </div>
 
         )
